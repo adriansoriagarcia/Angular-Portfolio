@@ -1,0 +1,35 @@
+.container {
+    width: 80%;
+}
+
+.description {
+  margin-bottom: 25%;
+}
+
+.hero {
+    background-image: url('../../assets/img/fondo.webp');
+    padding: 50px;
+    background-size: 900px 1000px;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    background-position: 50%;
+  }
+  
+  .btn {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    padding: 10px 20
+  }
+
+  @media screen and (max-width:640px) {
+    .hero {
+        background-image: url('../../assets/img/fondo.webp');
+        background-size: cover;
+        padding: 50px;
+        color: white;
+        text-align: center;
+      }
+    
+}  

@@ -1,0 +1,62 @@
+.menu-spacer {
+    flex: 0.6 1 auto;
+  }
+
+.menu {
+margin-bottom: 4%;
+margin-top: 2%;
+
+}
+
+
+.toolbar {
+    background-color: white;
+    margin-bottom: 3%;
+}
+
+.menu-peq {
+    background-color: white;
+}
+
+
+.menu-card {
+    max-width: 400px;
+    min-width: 150px;
+    border: none;
+    margin-top: 3%;
+    margin-left: 10%;
+}
+  
+.menu-header-image {
+    background-image: url('../img/img.jpeg');
+    background-size: cover;
+    width: 65px;
+    height: 65px;
+}
+
+.title {
+    font-size: 120%;
+}
+
+.subtitle {
+    font-size: large;
+}
+
+.button-menu{
+    margin-right: -8%;
+}
+
+a:hover{
+    color: #3f51b5;
+}
+
+@media screen and (max-width:640px) {
+    .menu-card {
+        border: none;
+        margin-top: 10%;
+        margin-left: 9%;
+    }
+    .title {
+        font-size: 100%;
+    }
+}

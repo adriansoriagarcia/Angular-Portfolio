@@ -1,0 +1,17 @@
+ <h1 class="titulo">Mi Portfolio</h1>
+ <p>A continuación podras ver algunos de mis proyectos:</p>
+
+
+<div class="portfolio">
+  <div class="project" *ngFor="let item of projects">
+    <img src="{{ item.img }}" alt="Project image">
+    <h1>{{ item.name }}</h1>
+    <p>{{ item.description }}</p>
+    <h4>{{ item.technologies }}</h4>
+    <a href="{{ item.button1 }}" target="_blank"><i class="bi bi-pc-display-horizontal"></i> Probar</a><a href="{{ item.button2 }}" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+  </div>
+</div>
+
+
+
+
